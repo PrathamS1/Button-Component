@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://button-component-delta.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -63,6 +63,6 @@ This project features:
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
+- Live On [Vercel.com](https://button-component-delta.vercel.app/)
 - GitHub [@PrathamS1](https://github.com/PrathamS1)
 - Twitter [@Pratham_S1](https://twitter.com/Pratham_S1)
