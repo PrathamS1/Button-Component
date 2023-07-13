@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Button component}</h1>
+<h1 align="center">Button component</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -27,11 +27,9 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
-- [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
@@ -39,55 +37,32 @@
 
 ![screenshot](https://github.com/PrathamS1/Button-Component/assets/91936136/f6522cfc-0e46-4736-8761-39618d4109c4)
 
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :
+Here's a quick review...
+This is the solution to the challenge Button Component from devchallenges.io. The challenge was to create different buttons as per the user need.
+The solution is live and you can visit the page by clicking on the Demo above.
+It was worth accepting the challenge as I got to know various styles and functions that can be applied to buttons. While making the solution I learned more about javascript functions and css styles.
+It is always best to start from simple challenges and move your way to the top gradually.
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- HTML5
+- CSS
+- JavaScript
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
+This project features:
+* User can choose different types of buttons.
+* User can choose to have an icon on the left or right.
+* The buttons have proper visual indicators when hovered or focused.
+* Size of button can be changed by the user explicitly.
+* User can choose to disable a button.
+* Responsive design
 
-## How To Use
-
-<!-- This is an example, please update according to your application -->
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
 - Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@PrathamS1](https://github.com/PrathamS1)
+- Twitter [@Pratham_S1](https://twitter.com/Pratham_S1)
