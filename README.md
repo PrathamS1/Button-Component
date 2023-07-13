@@ -37,7 +37,8 @@
 
 ## Overview
 
-![Alt ScreenShot](screenshot.jpeg)
+![screenshot](https://github.com/PrathamS1/Button-Component/assets/91936136/f6522cfc-0e46-4736-8761-39618d4109c4)
+
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
