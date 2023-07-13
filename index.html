@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body>
+    <div class="container">
+        <div class="ButtonTypes">
+            <h1>Default Button</h1>
+        </div>
+        <div class="row1">
+            <button class="grayscale">Default</button>
+        </div>
+
+        <div class="ButtonTypes">
+            <h1>Outlined Button</h1>
+        </div>
+        <div class="row1">
+            <button class="outline">Default</button>
+        </div>
+
+        <div class="ButtonTypes">
+            <h1>Button With Text Only</h1>
+        </div>
+        <div class="row1">
+            <button class="text">Default</button>
+        </div>
+
+        <div class="ButtonTypes">
+            <h1>Button with disabled shadow</h1>
+        </div>
+        <div class="row1">
+            <button class="disableShadow">Default</button>
+        </div>
+
+        <div class="ButtonTypes">
+            <h1>Disabled Button</h1>
+        </div>
+        <div class="row1">
+            <button class="disabled" id="disabled">Disabled</button>
+            <input type="checkbox" id="checkbox" onclick="disableButton('checkbox')">Disable Button
+        </div>
+
+        <div class="ButtonTypes">
+            <h1>Disabled Text Button</h1>
+        </div>
+        <div class="row1">
+            <button class="textDisabled" id="textDisabled">Disabled</button>
+            <input type="checkbox" id="checkbox2" onclick="disableButton('checkbox2')">Disable Button
+        </div>
+
+        <div class="ButtonTypes">
+            <h1>Button With Icon</h1>
+        </div>
+        <div class="row1">
+            <button class="iconButton" id="iconButton">
+                <span class="material-symbols-outlined" id="icon">shopping_cart</span>
+                Default
+            </button>
+            <label for="icons">Icon</label>
+            <select id="icons" onchange="iconSelect()">
+                <option value="bag">Bag</option>
+                <option value="cart" selected>Cart</option>
+                <option value="work">Work</option>
+                <option value="store">Store</option>
+                <option value="savings">Savings</option>
+            </select>
+            <label for="position">Position</label>
+            <select id="position" onchange="position()">
+                <option value="none" selected>none</option>
+                <option value="right">Right</option>
+                <option value="left">Left</option>
+            </select>
+        </div>
+
+        <div class="ButtonTypes">
+            <h1>Button with varying Sizes</h1>
+        </div>
+        <div class="row1">
+            <button class="differentSizes" id="differentSizes">Default</button>
+            <label for="sizes">Select Size</label>
+            <select id="sizes" onchange="changeSize()">
+                <option value="small">Sm</option>
+                <option value="medium">Md</option>
+                <option value="large">Lg</option>
+            </select>
+        </div>
+
+        <div class="ButtonTypes">
+            <h1>Default Button</h1>
+        </div>
+        <div class="row1">
+            <button class="default">Default</button>
+        </div>
+
+        <div class="ButtonTypes">
+            <h1>Primary Button</h1>
+        </div>
+        <div class="row1">
+            <button class="primary">Default</button>
+        </div>
+
+        <div class="ButtonTypes">
+            <h1>Secondary Button</h1>
+        </div>
+        <div class="row1">
+            <button class="secondary">Secondary</button>
+        </div>
+    </div>
+    <footer>
+        <img src="devChallenges.png" alt="devChallenges.io">
+        <h2 class="createdBy">created by <a href="https://devchallenges.io/portfolio/PrathamS1" target="_blank">PrathamS1</a> - <a href="https://devchallenges.io/" target="_blank">devChallenges.io</a></h2>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
